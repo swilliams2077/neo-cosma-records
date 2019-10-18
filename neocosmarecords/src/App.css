@@ -14,6 +14,7 @@
 .pageTitle{
   text-align: center;
   font-family: 'Pixel-Art Regular';
+  color: white;
 }
 
 .nav {
@@ -22,5 +23,13 @@
 }
 
 .navBlack{
-  color: black;
+  color: white;
+}
+
+#highlight {
+  color: mediumorchid;
+}
+
+body {
+  background-color: black;
 }

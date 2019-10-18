@@ -8,8 +8,7 @@ function App() {
       <div className = "row">
         <div className = "col">
           <div className = "pageTitle">
-            <h1> NEO COSMA RECORDS </h1>
-            <h2>alternative internet label</h2>
+            <h1> NEO <span id = "highlight">COSMA</span> RECORDS </h1>
             <p> choose your weapon: </p>
           </div>
           
@@ -39,10 +38,23 @@ function App() {
           </ul>
         </div>
       </div>
-
+      
       <div className = "row">
-        <div className = "col">
-        <h1>content</h1>
+        <div className =  "col-10 mx-auto">
+         
+          
+          
+          <div className = "card">
+            <div className = "card-header">
+              Featured
+            </div>
+            <div className = "card-body">
+              <h5 className = "card-title">Special title treatment</h5>
+              <p className = "card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <img src="https://rbma.imgix.net/EL-P-p081-RaphRashid-BTTL.4bbc8edd.jpg?auto=format&w=1280" class="img-fluid" alt="Responsive image"></img>
+              <a href="#" className = "btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
