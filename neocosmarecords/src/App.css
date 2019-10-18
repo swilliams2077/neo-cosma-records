@@ -20,3 +20,13 @@
 .App-link {
   color: #09d3ac;
 }
+
+/* pixelart font for application */
+@font-face {
+  font-family: 'Pixel-Art Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Pixel-Art Regular'), url('./assets/css/fonts/pixelart.woff') format('woff');
+  }
+
+  
