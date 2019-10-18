@@ -5,8 +5,8 @@ import './App.css';
 function App() {
   return (
     <div className = "container">
-      <div class = "row">
-        <div class = "col">
+      <div className = "row">
+        <div className = "col">
           <div className = "pageTitle">
             <h1> NEO COSMA RECORDS </h1>
             <h2>alternative internet label</h2>
@@ -14,31 +14,36 @@ function App() {
           </div>
           
           {/* this can be its own component. */}
-          <ul class="nav justify-content-center">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Music</a>
+          <ul className = "nav border justify-content-center">
+            <li className = "nav-item">
+              <a className = "nav-link navBlack" href = "#">Music</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Visuals</a>
+            <li className = "nav-item">
+              <a className = "nav-link navBlack" href = "#">Visuals</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artists</a>
+            <li className = "nav-item">
+              <a className = "nav-link navBlack" href = "#">Artists</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+            <li className = "nav-item">
+              <a className = "nav-link navBlack" href = "#">Merchandise</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+            <li class = "nav-item">
+              <a class = "nav-link navBlack" href = "#">About</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+            <li class = "nav-item">
+              <a class = "nav-link navBlack" href = "#">Services</a>
+            </li>
+            <li class = "nav-item">
+              <a class = "nav-link navBlack" href = "#">Contact</a>
             </li>
           </ul>
         </div>
       </div>
 
       <div className = "row">
+        <div className = "col">
         <h1>content</h1>
+        </div>
       </div>
     </div>
     
